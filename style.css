@@ -1,0 +1,103 @@
+
+
+body {
+	font-family: 'Montserrat';
+	margin: 50px 100px 100px 100px;
+}
+
+nav {
+	padding: 25px 0;
+	display: flex;
+	justify-content:space-between;
+	padding: 0 175px 0 175px;
+}
+
+#icon{
+	margin: 0 15px 0 15px;
+	display:flex;
+	align-items:center;
+	float:left;
+	justify-content:space-between;
+}
+
+#icon img{
+	width: 25px;
+	height:auto;
+	margin-right:10px;
+}
+
+h1{
+	font-size:15px;
+	margin:0;
+	display:inline-block;
+	clear:both;
+}
+#menu{
+	align-items:center;
+	list-style:none;
+	display:flex;
+}
+
+li{
+	display:list-item;
+	font-size:15px;
+}
+#menu a {
+	padding:10px;
+	color:black;
+	text-decoration:none;
+}
+
+#baner {
+	background-image: url('77153696-close-up-of-wooden-office-table-with-laptop-coffee-cup-spiral-notepad-and-colorful-stickers.jpg');
+	margin-top: 25px;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#title{
+	position:absolute;
+	text-align:center;
+	width:50%;
+	padding-left:259.8px;
+	padding-right:259.8px;
+	align-items:center;
+}
+.title {
+	color: white;
+	font-size: 60px;
+	font-weight:bold;
+	padding: 70px 50px 50px 50px;
+}
+
+.sub-title{
+	color:white;
+	font-size:15px;
+	padding:10px 30px 100px 30px;
+	margin:0;
+}
+
+#title button {
+	background-color: #7cc576;
+	padding: 15px;
+	color: white;
+	border:none;
+	border-radius:90px;
+}
+
+#about {
+	padding:30px;
+	height: 500px;
+	text-align:center;
+}
+
+
+.about-title{
+	color:black;
+	font-size:30px;
+	font-weight:900;
+	text-transform:uppercase;
+}
+ 

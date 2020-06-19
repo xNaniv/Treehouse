@@ -1,0 +1,375 @@
+
+
+body {
+	font-family: 'Montserrat';
+	margin: 50px 100px 0px 100px;
+	
+}
+
+nav {
+	padding: 25px 0;
+	display: flex;
+	justify-content:space-between;
+	padding: 0 175px 0 175px;
+}
+
+#icon{
+	margin: 0 15px 0 15px;
+	display:flex;
+	align-items:center;
+	float:left;
+	justify-content:space-between;
+}
+
+#icon img{
+	width: 25px;
+	height:auto;
+	margin-right:10px;
+}
+
+h1{
+	font-size:15px;
+	margin:0;
+	display:inline-block;
+	clear:both;
+}
+#menu{
+	align-items:center;
+	list-style:none;
+	display:flex;
+
+}
+
+li{
+	display:list-item;
+	font-size:15px;
+}
+#menu a {
+	padding:10px;
+	color:black;
+	text-decoration:none;
+}
+
+#baner {
+	background-image: url('77153696-close-up-of-wooden-office-table-with-laptop-coffee-cup-spiral-notepad-and-colorful-stickers.jpg');
+	margin-top: 25px;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#title{
+	position:absolute;
+	text-align:center;
+	width:50%;
+	padding-left:259.8px;
+	padding-right:259.8px;
+	align-items:center;
+}
+.title {
+	color: white;
+	font-size: 60px;
+	font-weight:bold;
+	padding: 70px 50px 50px 50px;
+}
+
+.sub-title {
+	color: gray;
+	font-size: 15px;
+	
+	margin: 0;
+	text-align: center;
+	padding: 0 5px 15px 5px;
+}
+
+.btn {
+	background-color: #7cc576;
+	padding: 15px;
+	color: white;
+	border:none;
+	border-radius:90px;
+}
+
+#about {
+	padding: 30px;
+	height: 500px;
+	text-align: center;
+	align-items: center;
+}
+
+.about-title {
+	text-align: center;
+	padding-bottom: 0;
+	padding-top: 40px;
+	color: black;
+	font-size: 30px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+#about .sub-title{
+	
+	padding:0 5px 15px 5px;
+}
+
+.example:first-child{
+	padding-left:100px;
+}
+.example:last-child{
+	padding-right:100px;
+}
+.example{
+	padding:15px;
+}
+
+.example p{
+	font-size: 13px;
+}
+
+.service-examples {
+	text-align:center;
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+}
+
+#blog{
+	display:flex;
+	justify-content:flex-end;
+}
+.left-side-blog {
+	background-color: #e9e9e9;
+	color: white;
+	position: relative;
+	overflow-x: hidden;
+
+	width:40%;
+}
+.left-side-blog i {
+	
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(50%,-50%);
+}
+
+.right-side-blog {
+	width:60%;
+	padding:5%;
+	box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.75);
+	background-image: url('ciezar-dowodu.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.right-side-blog h2{
+	color:white;
+	font-size:40px;
+}
+
+.right-side-blog span{
+	color:#7cc576;
+	
+}
+
+.right-side-blog p{
+	padding-right:55px;
+	color:#a4a4a4;
+	font-size: 15px;
+	align-items:center;
+	display:flex;
+}
+
+.right-side-blog i{
+	color:#a4a4a4;
+	padding: 0 10px 0 5px;
+}
+.right-side-blog .btn{
+	margin:25px;
+	width:150px;
+}
+
+h4{
+	font-weight:bold;
+}
+#latest-projects{
+	
+	width:100%;
+}
+.left-side-projects {
+	margin-bottom:40px;
+	width: 45%;
+	float:left;
+	padding:20px 15px 15px 120px;
+}
+
+.left-side-projects p {
+	font-size:13px;
+	color:gray;
+}
+
+.icon-projects {
+	align-items: flex-start;
+	
+	align-items: center;
+}
+.icon-projects span{
+	
+	display:block;
+}
+.icon-projects-details{
+	padding:12px;
+}
+.icon-projects-details h5 { 
+	margin-bottom:2px;
+}
+.icon-projects-details p { 
+	margin-top:2px;
+}
+.right-side-projects {
+	margin-bottom:40px;
+	padding: 20px 0px 15px 40px;
+	float: left;
+	
+	justify-content: flex-end;
+}
+
+.right-side-projects img {
+	height:500px;
+	width: 500px;
+	transform: translate(6%,10%);
+}
+
+.projects-details {
+	padding:100px 10px 10px 0px;
+	color: #7cc576;
+	text-decoration:none;
+	font-weight:bold;
+}
+#culture-values{
+	padding:30px;
+	justify-content:center;
+	margin-top: 30px;
+	clear:both;
+	background-color:#f9f9f9;
+}
+.our-clients {
+	align-items:center;
+	height:500px;
+	text-align:center;
+	padding:20px;
+	position:relative;
+	margin-bottom:200px;
+}
+.clients {
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	margin-right: -33%;
+	transform: translate(-30%, -20%)
+}
+.clients img {
+	margin-right:40px;
+	margin-left:40px;
+	float:left;
+	width: 180px;
+	height: 180px;
+	border-radius: 400px;
+}
+.clients-comment{
+	width:40%;
+	background-color:#f9f9f9;
+	margin:50px;
+	padding:15px;
+	float:left;
+	transform: translate(0%,-20%);
+}
+#contact-baner {
+	background-color: #7cc576;
+	padding:70px 100px 70px 100px;
+	color:white;
+	font-weight:600;
+	text-align:center;
+}
+.btn-contact {
+	background-color: #7cc576;
+	padding: 15px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+.other-logo {
+	width: 80%;
+	justify-content: space-between;
+	padding: 15px 150px 15px 150px;
+	margin: 50px 0px 150px 0px;
+}
+.other-logo img{
+	padding:20px;
+	float:left;
+	height:85px;
+	width:250px;
+	
+}
+.footer{
+	height:100%;
+	color:white;
+	display:flex;
+	padding:40px 150px 40px 150px;
+	background-color:#404040;
+	justify-content:space-between;
+}
+.contact{
+	align-items:baseline;
+	padding:5px;
+	float:left;
+}
+.location {
+	align-items: center;
+	display: flex;
+	font-size: 12px;
+	padding: 5px;
+}
+.phone-number {
+	font-size: 12px;
+	align-items: center;
+	display: flex;
+	padding: 5px;
+}
+.mail{
+	font-size:12px;
+}
+.latest-posts{
+	align-items:baseline;
+	padding:5px;
+	float:left;
+}
+.post {
+	align-items: center;
+	display: flex;
+	font-size: 12px;
+	padding: 5px;
+}
+.latest-tweets {
+	width:30%;
+	float: left;
+	align-items: baseline;
+	padding: 5px;
+}
+.tweets p{
+	margin:10px;
+}
+.footer-bottom{
+	width:100$;
+	justify-content:space-between;
+	display:flex;
+}
+.footer-bottom p{
+	padding: 20px 100px 20px 100px;
+}
+.social-media {
+	padding: 20px 300px 20px 100px;
+}
